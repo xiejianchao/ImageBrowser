@@ -29,7 +29,7 @@ public class SmoothImageView extends PhotoView {
     private static final int TRANSFORM_DURATION = 200;
     private static final int MIN_TRANS_DEST = 5;
     private static final float MAX_TRANS_SCALE = 0.5f;
-    private static final float MOVE_SCALE_RATIO = 0.39f;
+    private static final float MOVE_SCALE_RATIO = 0.35f;
 
     private Status mStatus = Status.STATE_NORMAL;
     private Paint mPaint;
